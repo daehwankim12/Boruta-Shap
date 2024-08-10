@@ -527,8 +527,8 @@ class BorutaShap:
 
         """
 
-        padded_history_shadow  = np.full((self.ncols), np.NaN)
-        padded_history_x = np.full((self.ncols), np.NaN)
+        padded_history_shadow  = np.full((self.ncols), np.nan)
+        padded_history_x = np.full((self.ncols), np.nan)
 
         for (index, col) in enumerate(self.columns):
             map_index = self.order[col]
